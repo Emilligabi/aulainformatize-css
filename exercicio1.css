@@ -1,0 +1,61 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    /**comentario**/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 1rem;
+    background: #c00f0f ;
+    border-radius: 2rem;
+    box-shadow: 0 3px #11adc9;
+    display: flex;
+    flex-direction: colum;
+
+}
+
+
+figure {
+    overflow: hidden;
+    border-radius: 5rem;
+    border: 0,25rem solid #8323c4;
+
+    display: flex ;
+}
+
+
+figure > img {
+    flex: 1;
+}
+
+
+.info {
+    padding: 1rem 0;
+
+}
+
+
+.info > strong {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 4, 255);
+}
+
+
+.info p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: rgb(237, 240, 243);
+}
